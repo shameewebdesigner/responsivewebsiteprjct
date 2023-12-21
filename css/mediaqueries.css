@@ -203,8 +203,7 @@
 
 @media only screen and (max-width: 768px) and (min-width: 601px)  {
     .navbar {
-        padding: 20px 50px;
-       
+        padding: 20px 38px;
     }
 
     .main-head {
@@ -235,11 +234,16 @@
 
     .office-sectnpara {
         margin-top: 0;
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
-    .office-sectnpara p {
-        font-size: 11px;
+    .sectnpara p {
+        font-size: 16px;
+    }
+
+    .office-sectnpara h4 {
+        margin-bottom: 2rem;
+        font-size: 40px;
     }
 
     
@@ -258,12 +262,12 @@
 
     .process-sctn2, .process-sctn3, .process-sctn4, .process-sctn5, .process-sctn6 {
         width: 100%;
-        height: 300px;
+        height: fit-content;
     }
 
     .process-sctn {
         width: 100%;
-        height: 300px;
+        height: fit-content;
     }
 
     .feature-sctn {
@@ -275,5 +279,88 @@
         padding-left: 0;
     }
 
+    .cntct-dtl {
+        margin-left: 20px;
+    }
+
+    .links-source {
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 2rem;
+    }
+
+    .main-para {
+        padding: 0 ;
+    }
+
+    .srvce-para2, .srvce-para1 {
+        font-size: 13px;
+    }
+
     
+}
+
+
+
+
+
+
+
+/* for laptop */
+@media only screen and (max-width: 1200px) and (min-width: 769px )  {
+
+    .navbar {
+        padding: 20px 45px;     
+    }
+
+    .main-head {
+        font-size: 64px;
+        padding: 6% 12px 4%;
+    }
+
+    .srvce-section1 img, .srvce-section2 img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .srvce-para2 {
+        padding-right: 0;
+    }
+
+    .srvce-para1 {
+        padding-right: 0px;
+    }
+
+    .feature-sctn {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .srvce-section1 {
+        padding-left: 0;
+    }
+
+    .process-sctn2, .process-sctn3, .process-sctn4, .process-sctn5, .process-sctn6, .process-sctn {
+        width: 100%;
+        height: 228px;
+    }
+
+    .office-sctn img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .office-sectnpara {
+        margin-top: 0px;
+        padding-left: 48px;
+    }
+
+    .office-sectnpara p {
+        font-size: 13px;
+    }
+
+    .cntct-dtl p {
+        font-size: 14px;
+    }
+
 }
