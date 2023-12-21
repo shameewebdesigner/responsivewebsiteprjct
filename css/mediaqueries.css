@@ -207,7 +207,8 @@
     }
 
     .main-head {
-        font-size: 51px;
+        font-size: 45px;
+        padding: 10rem 12px;
     }
 
     .srvce-section1 img, .srvce-section2 img {
@@ -314,8 +315,8 @@
     }
 
     .main-head {
-        font-size: 64px;
-        padding: 6% 12px 4%;
+        font-size: 60px;
+        padding: 10rem 12px;
     }
 
     .srvce-section1 img, .srvce-section2 img {
